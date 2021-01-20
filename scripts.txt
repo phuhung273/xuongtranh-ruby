@@ -1,0 +1,16 @@
+Development:
+bundle install --without production
+
+Production:
+bundle install --without development:test
+
+heroku run -a xuongtranh rails db:migrate --trace
+
+heroku run -a xuongtranh rails db:rollback STEP=8
+
+rails g scaffold marketing content:string result:integer source:references product:references lead:references time:string
+
+rails g scaffold sale customer:string sale_lead:references product:references demand:string connection:string status:references email:string phone:string time:string modified_time:string
+
+rails g model user username:string email:string password:string name:string avatar:string roles:string
+

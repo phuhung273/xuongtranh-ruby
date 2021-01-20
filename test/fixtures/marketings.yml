@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  result: 1
+  source: one
+  product: one
+  lead: one
+  time: MyString
+
+two:
+  content: MyString
+  result: 1
+  source: two
+  product: two
+  lead: two
+  time: MyString

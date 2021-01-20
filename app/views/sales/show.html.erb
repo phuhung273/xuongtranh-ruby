@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Customer:</strong>
+  <%= @sale.customer %>
+</p>
+
+<p>
+  <strong>Sale lead:</strong>
+  <%= @sale.sale_lead_id %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @sale.product_id %>
+</p>
+
+<p>
+  <strong>Demand:</strong>
+  <%= @sale.demand %>
+</p>
+
+<p>
+  <strong>Connection:</strong>
+  <%= @sale.connection %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @sale.status_id %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @sale.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @sale.phone %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @sale.time %>
+</p>
+
+<p>
+  <strong>Modified time:</strong>
+  <%= @sale.modified_time %>
+</p>
+
+<%= link_to 'Edit', edit_sale_path(@sale) %> |
+<%= link_to 'Back', sales_path %>

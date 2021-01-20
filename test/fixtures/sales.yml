@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: MyString
+  sale_lead: one
+  product: one
+  demand: MyString
+  connection: MyString
+  status: one
+  email: MyString
+  phone: MyString
+  time: MyString
+  modified_time: MyString
+
+two:
+  customer: MyString
+  sale_lead: two
+  product: two
+  demand: MyString
+  connection: MyString
+  status: two
+  email: MyString
+  phone: MyString
+  time: MyString
+  modified_time: MyString
